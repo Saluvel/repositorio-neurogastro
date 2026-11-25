@@ -1,8 +1,12 @@
-
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="author" content="Dr. Moisés Oropeza">
 <meta name="description" content="Repositorio de estudio de neurogastroenterología 2026: guía Roma V, Chicago 4.0 y Lyon 2.0, consulta rápida, fenotipador terapéutico, intérpretes de estudios, vademécum con disponibilidad en Chile, calculadoras, atlas, material para pacientes y quiz.">
 <meta name="theme-color" content="#1d4a4f">
-<title>Repositorio Neurogastro de Lucho</title>
+<title>Repositorio de Moisés</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -337,7 +341,9 @@ table.kt2 td:nth-child(2){min-width:200px}
 #copia-lucho ul{margin:8px 0 2px;padding-left:20px;max-width:75ch}
 #copia-lucho a{color:var(--acento)}
 </style>
-<details id="copia-lucho"><summary>Copia personal de estudio, con correcciones (25 de noviembre de 2026)</summary>
+</head>
+<body>
+<details id="copia-lucho"><summary>Repositorio de Moisés · versión de estudio de Lucho con mejoras (noviembre de 2026)</summary>
 <p style="margin:8px 0 0;max-width:75ch">Basada en el repositorio original del Dr. Moisés Oropeza (<a href="https://moropezah.github.io/repositorio-neurogastro-2026/" target="_blank" rel="noopener">sitio original</a>). Todo el contenido y el diseño son suyos; aquí solo se corrigieron datos revisados contra la fuente primaria. El progreso del quiz queda guardado en este navegador; la sincronización con Google Sheets del autor está desactivada.</p>
 <ul>
 <li>Buspirona: ya no figura como segunda línea para saciedad en dispepsia (metaanálisis 2025 sin beneficio global).</li>
@@ -356,7 +362,7 @@ table.kt2 td:nth-child(2){min-width:200px}
 
 <header class="top">
   <div class="top-in">
-    <a class="brand" href="#inicio"><span class="dot">NG</span><span>Repositorio Neurogastro 2026</span></a>
+    <a class="brand" href="#inicio"><span class="dot">NG</span><span>Repositorio de Moisés</span></a>
     <nav class="tabs" id="tabs">
       <a href="#inicio">Inicio</a>
       <a href="guia-2026.html">Guía</a>
@@ -922,7 +928,7 @@ table.kt2 td:nth-child(2){min-width:200px}
 <div id="pwa-ui"></div>
 <script>
 (function(){
-  var SW="sw.js", KEY="pwa-ios-neuro", APP="Neurogastro 2026";
+  var SW="sw.js", KEY="pwa-ios-neuro", APP="Repositorio de Moisés";
   var standalone=window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
   if('serviceWorker' in navigator&&/^https?:$/.test(location.protocol)&&!/claude\.ai|claudeusercontent/.test(location.hostname)){
     window.addEventListener('load',function(){navigator.serviceWorker.register(SW).catch(function(){})});
@@ -939,5 +945,5 @@ table.kt2 td:nth-child(2){min-width:200px}
     d.querySelector('.x').onclick=function(){d.remove();try{localStorage.setItem(KEY,'1')}catch(e){}};ui.appendChild(d)}
 })();
 </script>
-
-
+</body>
+</html>

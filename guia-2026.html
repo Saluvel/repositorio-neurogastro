@@ -2645,7 +2645,7 @@ document.getElementById('navsearch').addEventListener('input',function(e){
 <div id="pwa-ui"></div>
 <script>
 (function(){
-  var SW="sw.js", KEY="pwa-ios-neuro", APP="Neurogastro 2026";
+  var SW="sw.js", KEY="pwa-ios-neuro", APP="Repositorio de Moisés";
   var standalone=window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
   if('serviceWorker' in navigator&&/^https?:$/.test(location.protocol)&&!/claude\.ai|claudeusercontent/.test(location.hostname)){
     window.addEventListener('load',function(){navigator.serviceWorker.register(SW).catch(function(){})});
