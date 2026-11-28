@@ -41,3 +41,13 @@ El progreso se guarda en el navegador y se sincroniza con una hoja propia (*Quiz
 ## Fuentes y alcance
 
 Roma V (Gastroenterology 2026), Chicago 4.0 (Neurogastroenterol Motil 2021), Lyon 2.0 (Gut 2024) y guías AGA, ACG y ESNM vigentes, sobre la base del material docente del autor (Guía de tubo digestivo alto 2026, Curso de tubo digestivo bajo 2025). La disponibilidad de fármacos en Chile se indica a octubre de 2026 y debe verificarse en el ISP. Uso personal de estudio; no reemplaza el juicio clínico ni la ficha técnica de cada fármaco.
+
+## Copia offline (un solo archivo)
+
+Para usar el repositorio sin internet o donde github.io está bloqueado:
+
+```
+python3 herramientas/generar_offline.py
+```
+
+Crea `repositorio-de-moises-offline.html`, que se abre con doble clic desde el computador o un pendrive.
